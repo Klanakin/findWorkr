@@ -1,0 +1,31 @@
+.btn {
+    background-color: $color-secondary;
+    border-color: $color-secondary-tint;
+    border-radius: .4rem;
+    border-style: solid;
+    border-width: .1rem;
+    box-shadow: .2rem .2rem .2rem rgba(0, 0, 0, .2);
+    color: darken($color-secondary-contrast,30%);
+    display: inline-block;
+    padding: .4rem 1rem;
+    text-decoration: none;
+    transition: all .2s;
+
+    &:link,
+    &:visited {
+        font-size: small; }
+
+    &:hover {
+        // box-shadow: .2rem .2rem .4rem rgba(0, 0, 0, .4);
+        color: $color-secondary-contrast; }
+        // transform: translateY(-.2rem); }
+
+    &:focus {
+        color: $color-secondary-contrast;
+        // transform: translateY(-.2rem);
+        // box-shadow: .2rem .2rem .4rem rgba(0, 0, 0, .4);
+        outline: none; }     
+    
+    &:active {
+        transform: translateY(0); } }
+        // box-shadow: .2rem .2rem .2rem rgba(0, 0, 0, .2); } }
